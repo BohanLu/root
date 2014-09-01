@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="RepoTest"
-           fetch="https://github.com/BohanLu/" />
+           fetch="https://github.com/" />
 
   <default revision="refs/heads/master"
            remote="RepoTest"
            sync-j="4" />
 
-  <project name="test.git" remote="RepoTest" path="test"/>
-  <project name="test_abc.git" remote="RepoTest" path="test_abc"/>
+  <project name="BohanLu/test.git" remote="RepoTest" path="test"/>
+  <project name="BohanLu/test_abc.git" remote="RepoTest" path="test_abc"/>
 
 </manifest>
