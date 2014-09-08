@@ -5,7 +5,8 @@
 
   <default revision="refs/heads/master"
            remote="RepoTest"
-           sync-j="4" />
+           sync-j="4" 
+           sync-c="true" />
 
   <project name="BohanLu/test.git" remote="RepoTest" path="test"/>
   <project name="BohanLu/test_abc.git" remote="RepoTest" path="test_abc"/>
